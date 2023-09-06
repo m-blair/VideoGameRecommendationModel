@@ -6,7 +6,7 @@ ___
 # Project Outline:
 
 ## Curating the dataset
-- define a base set of video game titles to find data for, using the kaggle dataset [here](https://www.kaggle.com/datasets/gregorut/videogamesales)
+- define a base set of video game titles to find data for, using a dataset from kaggle [here](https://www.kaggle.com/datasets/gregorut/videogamesales)
 - pull data on each title and store in a csv representing the 'game library'
 - preprocess/clean the stored data
 
@@ -34,3 +34,11 @@ ___
 ## Develop a GUI
 - use pygame + tkinter to develop a front-end interface for inputting data into the model and viewing results 
 ___
+
+
+Sources:
+
+* [Data Source (IGDB)](https://www.igdb.com/)
+
+* [Game Titles (Kaggle)](https://www.kaggle.com/datasets/gregorut/videogamesales)
+

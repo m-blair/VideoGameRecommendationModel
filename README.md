@@ -1,8 +1,13 @@
 # Video Game Recommendation Model (VGRM)
-A video game recommendation model trained using self-curated data from IGDB.
-This project is a work in progress, and this repo is meant to document the entire process of creating a machine learning model *mostly* from scratch, including building our own dataset to be used in training testing, and validating the model.
+A video game recommendation model trained using self-curated data from IGDB, making use of their REST API and python.
+This project is a work in progress, and this repo is meant to document the entire process of creating a machine learning model *mostly* from scratch, including building our own dataset to be used in training testing, and validating the model. 
 
+For this model, we are using a _content-based filtering approach_, where we feed the model data containing features of a set of specific video game titles, rather than feeding it user preference data. This methodology has its pros and cons, but ultimately was chosen due to the relative ease of access to game content data over user preference data. 
+
+# Current Status:
+We are in the process of expanding the game library which will be used in model training. So far, we have created a data pipeline to and from the external data source (IGDB), and defined a procedure for preprocessing the resulting data. We have performed a baseline analysis of the data obtained so far (roughly 5000 titles), identified the most viable features, as well as the different encoding methods we will use in translating this data for the model to use. By the end of this section of the project, we hope to have accrued a dataset of at least 10000 titles, and their various selected features.
 ___
+
 # Project Outline:
 
 ## Curating the dataset
